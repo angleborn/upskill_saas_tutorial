@@ -34,12 +34,12 @@ h1, h2, h3 {
 
 }
 
+/* Navbar styles */
+
 .navbar {
    
     border: none;
 }
-
-/* Navbar styles */
 
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
@@ -56,6 +56,20 @@ h1, h2, h3 {
     font-weight: 800;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    
+    &:hover, &:focus {
+         background-color: #243B55;
+    }
+}
+
+
+// Homepage styles
 
 .home-callout {
     margin-top: -20px;
